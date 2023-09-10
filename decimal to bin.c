@@ -1,9 +1,12 @@
-#include<stdio.h>    
+#include<stdio.h>   
+#include<stdlib.h> 
 int main()
 {  
-int a[10],n,i;    
+int a[10],n,i;  
+system("cls");    
 printf("Enter the number to convert: ");    
-scanf("%d",&n);    
+scanf("%d",&n);  
+
 for(i=0;n>0;i++)    
 {    
 a[i]=n%2;    
